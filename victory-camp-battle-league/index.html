@@ -1,0 +1,564 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#171a16">
+  <meta name="description" content="Victory Camp Battle League — Train. Compete. Dominate.">
+
+  <title>VICTORY CAMP — THE BATTLE LEAGUE</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- JavaScript -->
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+<div class="noise"></div>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container nav">
+
+    <a class="brand" href="#home">
+      <img src="assets/images/logo.png" alt="Victory Camp Logo" class="brand-logo">
+
+      <span>
+        <b>VICTORY CAMP</b>
+        <small>THE BATTLE LEAGUE</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav id="mainNav">
+      <a href="#league">LEAGUE</a>
+      <a href="#challenges">CHALLENGES</a>
+      <a href="#squads">SQUADS</a>
+      <a href="#leaderboard">RANKINGS</a>
+    </nav>
+
+    <a class="nav-cta" href="#join">ENLIST NOW ↗</a>
+
+  </div>
+</header>
+
+
+<main id="home">
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+
+    <div class="hero-bg"></div>
+
+    <div class="container hero-content">
+
+      <div class="hero-copy">
+
+        <span class="eyebrow">
+          <i class="live-dot"></i>
+          SEASON 01 / REGISTRATION OPEN
+        </span>
+
+        <h1>
+          BUILT TO<br>
+          <em>OUTPERFORM.</em>
+        </h1>
+
+        <p>
+          This is not just training. This is your proving ground.
+          Push your limits, earn your rank, and lead your squad to victory.
+        </p>
+
+        <div class="actions">
+          <a class="btn primary" href="#join">JOIN THE LEAGUE ↗</a>
+          <a class="btn ghost" href="#league">EXPLORE THE BATTLE</a>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <b>08</b>
+            <small>WEEKS</small>
+          </div>
+
+          <i></i>
+
+          <div>
+            <b>04</b>
+            <small>DIVISIONS</small>
+          </div>
+
+          <i></i>
+
+          <div>
+            <b>01</b>
+            <small>CHAMPION</small>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="stamp">
+        <small>VICTORY CAMP</small>
+        <b>NO<br>LIMITS</b>
+        <small>NO EXCUSES • EST. FORGED</small>
+      </div>
+
+    </div>
+
+    <div class="hero-foot">
+      <span>STRENGTH / ENDURANCE / DISCIPLINE</span>
+      <span>SCROLL TO DEPLOY ↓</span>
+    </div>
+
+  </section>
+
+
+  <!-- SEASON SECTION -->
+  <section class="season" id="league">
+
+    <div class="container season-grid">
+
+      <div>
+        <span class="eyebrow dark">CURRENT OPERATION</span>
+        <h2>SEASON <em>01</em></h2>
+      </div>
+
+      <div class="season-stat">
+        <small>DAYS LEFT</small>
+        <b>24</b>
+      </div>
+
+      <div class="season-stat">
+        <small>REGISTERED ATHLETES</small>
+        <b>128</b>
+      </div>
+
+      <div class="season-stat">
+        <small>ACTIVE SQUADS</small>
+        <b>08</b>
+      </div>
+
+      <div class="season-live">
+        <b>● LIVE SEASON</b>
+        <small>DEMO SEASON DATA</small>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- INTRO SECTION -->
+  <section class="section intro">
+
+    <div class="container intro-grid">
+
+      <div>
+        <span class="eyebrow">THE MISSION</span>
+
+        <h2>
+          EVERY REP<br>
+          COUNTS.
+          <em>EVERY<br>POINT MATTERS.</em>
+        </h2>
+      </div>
+
+      <div>
+
+        <p>
+          Every challenge is a chance to climb the ranks.
+          Compete solo or stand shoulder to shoulder with your squad.
+          Track your progress, collect points, and fight for the top spot.
+        </p>
+
+        <div class="rules">
+
+          <div>
+            <i>01</i>
+            <b>COMPETE</b>
+            <small>Take on weekly fitness missions.</small>
+          </div>
+
+          <div>
+            <i>02</i>
+            <b>EARN POINTS</b>
+            <small>Every verified result moves you up.</small>
+          </div>
+
+          <div>
+            <i>03</i>
+            <b>CLAIM YOUR RANK</b>
+            <small>Rise through the league and win the season.</small>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CHALLENGES SECTION -->
+  <section class="section missions" id="challenges">
+
+    <div class="container">
+
+      <div class="section-head">
+
+        <div>
+          <span class="eyebrow">WEEKLY MISSIONS</span>
+          <h2>CHOOSE YOUR <em>CHALLENGE.</em></h2>
+        </div>
+
+        <a class="text-link" href="#join">VIEW ALL MISSIONS ↗</a>
+
+      </div>
+
+
+      <div class="mission-grid">
+
+        <!-- CHALLENGE 01 -->
+        <article class="mission">
+
+          <div class="mission-meta">
+            <span>STRENGTH / INDIVIDUAL</span>
+            <small>MISSION 001</small>
+          </div>
+
+          <div class="mission-art deadlift">
+            <img src="assets/images/challenge-1.jpg" alt="Strength Challenge">
+            <i>01</i>
+            <b>MAX<br>LOAD</b>
+          </div>
+
+          <div class="mission-info">
+            <h3>THE IRON TEST</h3>
+
+            <p>
+              Highest verified deadlift total.
+              Your strength speaks for itself.
+            </p>
+
+            <footer>
+              <b>+100 PTS</b>
+              <small>ENDS IN 3 DAYS</small>
+            </footer>
+          </div>
+
+        </article>
+
+
+        <!-- CHALLENGE 02 -->
+        <article class="mission">
+
+          <div class="mission-meta">
+            <span>ENDURANCE / INDIVIDUAL</span>
+            <small>MISSION 002</small>
+          </div>
+
+          <div class="mission-art run">
+            <img src="assets/images/challenge-2.jpg" alt="Endurance Challenge">
+            <i>02</i>
+            <b>NO<br>QUIT</b>
+          </div>
+
+          <div class="mission-info">
+            <h3>THE LONG RUN</h3>
+
+            <p>
+              Cover the longest distance within the mission time.
+            </p>
+
+            <footer>
+              <b>+80 PTS</b>
+              <small>ENDS IN 5 DAYS</small>
+            </footer>
+          </div>
+
+        </article>
+
+
+        <!-- CHALLENGE 03 -->
+        <article class="mission">
+
+          <div class="mission-meta">
+            <span>TEAMWORK / SQUAD</span>
+            <small>MISSION 003</small>
+          </div>
+
+          <div class="mission-art squad">
+            <img src="assets/images/challenge-3.jpg" alt="Squad Challenge">
+            <i>03</i>
+            <b>ONE<br>UNIT</b>
+          </div>
+
+          <div class="mission-info">
+            <h3>SQUAD GAUNTLET</h3>
+
+            <p>
+              A team-based circuit. Every member contributes to the score.
+            </p>
+
+            <footer>
+              <b>+250 PTS</b>
+              <small>ENDS IN 7 DAYS</small>
+            </footer>
+          </div>
+
+        </article>
+
+      </div>
+
+      <p class="demo-note">
+        Mission names, points and deadlines are sample content for this prototype.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- LEADERBOARD SECTION -->
+  <section class="section leaderboard" id="leaderboard">
+
+    <div class="container">
+
+      <div class="section-head">
+
+        <div>
+          <span class="eyebrow">THE FRONTLINE</span>
+          <h2>LEADERBOARD <em>RANKINGS.</em></h2>
+        </div>
+
+        <div class="tabs">
+          <button class="tab active" data-board="individual">INDIVIDUAL</button>
+          <button class="tab" data-board="squad">SQUADS</button>
+        </div>
+
+      </div>
+
+      <div class="board">
+
+        <div class="board-head">
+          <span>RANK / ATHLETE</span>
+          <span>MISSIONS</span>
+          <span>POINTS</span>
+          <span>STATUS</span>
+        </div>
+
+        <div id="boardRows" aria-live="polite"></div>
+
+        <div class="board-foot">
+          <span>● SAMPLE LEAGUE DATA</span>
+          <a href="#join">GET YOUR NAME ON THE BOARD ↗</a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- SQUADS SECTION -->
+  <section class="section squads" id="squads">
+
+    <div class="container">
+
+      <div class="section-head">
+
+        <div>
+          <span class="eyebrow">BROTHERHOOD / COMPETITION</span>
+          <h2>CHOOSE YOUR <em>SQUAD.</em></h2>
+        </div>
+
+        <p class="head-note">
+          No one wins alone. Find your unit and fight for the flag.
+        </p>
+
+      </div>
+
+
+      <div class="squad-grid">
+
+        <!-- SQUAD 01 -->
+        <article class="squad-card olive">
+
+          <img src="assets/images/team-1.jpg" alt="Wolfpack Team">
+
+          <i>W</i>
+          <small>UNIT / 01</small>
+
+          <h3>WOLFPACK</h3>
+          <p>DISCIPLINE. SPEED. UNITY.</p>
+
+          <div class="squad-score">
+            <span>SEASON POINTS</span>
+            <b>2,840</b>
+          </div>
+
+          <div class="progress">
+            <i style="width:86%"></i>
+          </div>
+
+          <strong>RANK #01</strong>
+
+        </article>
+
+
+        <!-- SQUAD 02 -->
+        <article class="squad-card sand">
+
+          <img src="assets/images/team-2.jpg" alt="Reapers Team">
+
+          <i>R</i>
+          <small>UNIT / 02</small>
+
+          <h3>REAPERS</h3>
+          <p>GRIT. POWER. PRECISION.</p>
+
+          <div class="squad-score">
+            <span>SEASON POINTS</span>
+            <b>2,610</b>
+          </div>
+
+          <div class="progress">
+            <i style="width:78%"></i>
+          </div>
+
+          <strong>RANK #02</strong>
+
+        </article>
+
+
+        <!-- SQUAD 03 -->
+        <article class="squad-card rust">
+                    <img src="assets/images/team-3.jpg" alt="Reapers Team">
+
+
+          <i>V</i>
+          <small>UNIT / 03</small>
+
+          <h3>VANGUARD</h3>
+          <p>COURAGE. FOCUS. VICTORY.</p>
+
+          <div class="squad-score">
+            <span>SEASON POINTS</span>
+            <b>2,290</b>
+          </div>
+
+          <div class="progress">
+            <i style="width:69%"></i>
+          </div>
+
+          <strong>RANK #03</strong>
+
+        </article>
+
+      </div>
+
+      <p class="demo-note">
+        Squad names and scores are illustrative sample data.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- JOIN SECTION -->
+  <section class="join">
+
+    <div class="join-bg"></div>
+
+    <div class="container join-content">
+
+      <span class="eyebrow">YOUR NEXT MOVE STARTS HERE</span>
+
+      <h2>
+        READY TO<br>
+        <em>BE PROVEN?</em>
+      </h2>
+
+      <p>
+        Step into the arena. Register your interest and the Victory Camp
+        team will help you join the next operation.
+      </p>
+
+      <form id="joinForm">
+
+        <label class="sr-only" for="name">Full name</label>
+        <input id="name" name="name" placeholder="YOUR FULL NAME" required>
+
+        <label class="sr-only" for="phone">Phone number</label>
+        <input id="phone" name="phone" type="tel" placeholder="PHONE NUMBER" required>
+
+        <label class="sr-only" for="division">Competition division</label>
+
+        <select id="division" name="division" required>
+          <option value="">CHOOSE YOUR DIVISION</option>
+          <option>INDIVIDUAL</option>
+          <option>SQUAD</option>
+          <option>NOT SURE YET</option>
+        </select>
+
+        <button class="btn primary" type="submit">
+          SUBMIT ENLISTMENT ↗
+        </button>
+
+      </form>
+
+      <p id="formMessage" class="form-message" role="status"></p>
+
+      <small class="disclaimer">
+        DEMO FORM — CONNECT A REGISTRATION SYSTEM BEFORE LAUNCH.
+      </small>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+  <div class="container footer-inner">
+
+    <a class="brand" href="#home">
+
+      <img src="assets/images/logo.png" alt="Victory Camp Logo" class="brand-logo">
+
+      <span>
+        <b>VICTORY CAMP</b>
+        <small>THE BATTLE LEAGUE</small>
+      </span>
+
+    </a>
+
+    <span>TRAIN HARD. STAY READY. EARN VICTORY.</span>
+
+    <a href="#home">BACK TO TOP ↑</a>
+
+  </div>
+
+</footer>
+
+</body>
+</html>
